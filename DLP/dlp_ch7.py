@@ -475,6 +475,7 @@ class CustomModel(keras.Model):
 
     # override the train_step method
     # @tf.function - don't need to add this, framework does it for you
+    
     def train_step(self, data):
         inputs, targets = data
         
